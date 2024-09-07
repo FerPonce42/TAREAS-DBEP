@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POR FA FUNCIONA</title>
+    <style>
+        /* Estilos básicos para resetear el margen del body */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #262626; /* Fondo gris oscuro */
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Cambiado para que suba el contenido */
+            min-height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+            overflow-x: hidden; /* Previene el desplazamiento horizontal */
+        }
+
+        /* El contenedor principal para todo, centrado */
+        .container {
+            width: 60%; /* Hace que el contenido no ocupe todo el ancho */
+            background-color: #262626; /* Fondo gris oscuro */
+            box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Sombra */
+            margin-top: 20px; /* Margen superior para subir más */
+            padding-bottom: 20px; /* Espacio adicional en la parte inferior */
+            box-sizing: border-box; /* Incluye el padding en el ancho total del contenedor */
+        }
+
+        /* Rectángulo horizontal superior */
+        .header {
+            background-color: #002138; /* Color azul oscuro */
+            height: 150px; /* Tamaño del encabezado */
+            text-align: center;
+            padding: 20px;
+            color: white;
+            box-sizing: border-box; /* Incluye el padding en el ancho total del encabezado */
+        }
+
+        /* Contenedor para las dos columnas verticales */
+        .main-content {
+            display: flex;
+            /* Eliminada la altura fija para permitir que las columnas se extiendan según el contenido */
+        }
+
+        /* Columna izquierda, más delgada */
+        .left-column {
+            background-color: #003E69; /* Color azul oscuro aclarado */
+            width: 30%; /* El 30% del contenedor */
+            padding: 20px;
+            box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+            color: #ffffff; /* Texto blanco para contraste */
+        }
+
+        /* Columna derecha, más ancha */
+        .right-column {
+            background-color: #D4D4D4; /* Color gris claro aclarado */
+            width: 70%; /* El 70% del contenedor */
+            padding: 20px;
+            box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+            color: #000000; /* Texto negro para contraste */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contenedor principal centrado -->
+    <div class="container">
+        <!-- Rectángulo horizontal superior -->
+        <div class="header">
+            <h1>Encabezado</h1>
+        </div>
+
+        <!-- Dos rectángulos verticales debajo -->
+        <div class="main-content">
+            <!-- Columna izquierda -->
+            <div class="left-column">
+                <h2>Columna Izquierda</h2>
+                <p>BLABLALBAL</p>
+                <p>BLABLALBAL</p>
+                <p>BLABLALBAL</p>
+                <p>BLABLALBAL</p>
+            </div>
+            <!-- Columna derecha -->
+            <div class="right-column">
+                <h2>Columna Derecha</h2>
+                <p>BLABLALBAL</p>
+                <p>BLABLALBAL</p>
+                <p>BLABLALBAL</p>
+                <p>BLABLALBAL</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
