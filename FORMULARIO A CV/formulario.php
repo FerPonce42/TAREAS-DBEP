@@ -221,7 +221,7 @@
 
             <!-- Subir Foto -->
             <div class="photo-upload">
-                <label for="foto">Subir Foto para Fotocarta:</label>
+                <label for="foto">Subir Foto para Fotocara (Opcional):</label>
                 <input type="file" name="foto" id="foto" accept="image/*">
             </div>
 

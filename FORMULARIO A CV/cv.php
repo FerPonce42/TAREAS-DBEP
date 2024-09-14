@@ -13,7 +13,7 @@ if (isset($_FILES['foto']) && $_FILES['foto']['error'] === UPLOAD_ERR_OK) {
     if (move_uploaded_file($tmp_name, $foto_path)) {
         // La foto se ha subido exitosamente
     } else {
-        $foto_path = 'fotocara.png'; // Ruta de la foto por defecto en caso de errorrr
+        $foto_path = 'fotocara.png'; // Ruta de la foto por defecto en caso de erroorrr
     }
 } else {
     $foto_path = 'fotocara.png'; // Ruta de la foto por defecto si no se sube ninguna foto
