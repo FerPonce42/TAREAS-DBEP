@@ -21,7 +21,7 @@
         }
         form {
             display: grid;
-            grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+            grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamañooo */
             gap: 20px; /* Espacio entre columnas y filas */
         }
         label {
