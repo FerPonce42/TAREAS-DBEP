@@ -1,4 +1,24 @@
 <?php
+// Verificar si se ha enviado una foto
+if (isset($_FILES['foto']) && $_FILES['foto']['error'] === UPLOAD_ERR_OK) {
+    $tmp_name = $_FILES['foto']['tmp_name'];
+    $foto_path = 'uploads/' . basename($_FILES['foto']['name']);
+    
+    // Crear el directorio de subida si no existe
+    if (!is_dir('uploads')) {
+        mkdir('uploads', 0777, true);
+    }
+    
+    // Mover el archivo subido al directorio de destino
+    if (move_uploaded_file($tmp_name, $foto_path)) {
+        // La foto se ha subido exitosamente
+    } else {
+        $foto_path = 'fotocara.png'; // Ruta de la foto por defecto en caso de error
+    }
+} else {
+    $foto_path = 'fotocara.png'; // Ruta de la foto por defecto si no se sube ninguna foto
+}
+
 // Capturamos todos los datos enviados desde el formulario
 $nombre = $_POST['nombre'];
 $fecha_nacimiento = $_POST['fecha_nacimiento'];
@@ -91,7 +111,7 @@ $perfil = $_POST['perfil'];
                 <tr>
                     <td style="padding-right: 20px;">
                         <!-- Imagen de perfil -->
-                        <img src="fotocara.png" alt="FOTO CARA">
+                        <img src="<?php echo htmlspecialchars($foto_path); ?>" alt="FOTO CARA" style="max-width: 150px; max-height: 150px;">
                     </td>
                     <td>
                         <div style="text-align: center; padding-left: 20px;">

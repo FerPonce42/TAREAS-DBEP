@@ -43,20 +43,17 @@
             cursor: pointer;
             grid-column: span 2; /* El botón ocupará ambas columnas */
         }
-        .radio-group, .checkbox-group {
-            display: flex;
-            flex-direction: column;
+        .checkbox-group, .radio-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Distribuye en columnas */
+            gap: 10px;
         }
         .radio-group div, .checkbox-group div {
             display: flex;
             align-items: center;
-            margin-bottom: 5px;
-        }
-        .radio-group label, .checkbox-group label {
-            margin-right: 10px;
         }
         .radio-group input, .checkbox-group input {
-            margin-left: 10px;
+            margin-right: 10px;
         }
         .full-width {
             grid-column: span 2; /* Ocupa ambas columnas */
@@ -73,19 +70,21 @@
             color: red;
             margin-left: 5px;
         }
-        .compact-select {
-            height: auto; /* Ajusta la altura del select */
+        .compact-select, .compact {
+            grid-column: span 1; /* Ocupa una columna */
         }
         textarea {
             height: 100px; /* Ajusta la altura del textarea */
         }
-        .compact {
-            grid-column: span 1; /* Ocupa una columna */
+        .photo-upload {
+            grid-column: span 2; /* Ocupa ambas columnas */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        .checkbox-group {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Distribuye las habilidades en varias columnas si es necesario */
-            gap: 10px;
+        .photo-upload input[type="file"] {
+            border: 1px solid #ccc;
+            padding: 5px;
         }
     </style>
 </head>
@@ -93,7 +92,7 @@
 
     <div class="form-container">
         <h2>Formulario para Generar CV</h2>
-        <form action="cv.php" method="POST">
+        <form action="cv.php" method="POST" enctype="multipart/form-data">
             <!-- Nombre y Apellidos -->
             <div class="single-column">
                 <label for="nombre" class="label-with-asterisk">Nombre y Apellidos:</label>
@@ -138,12 +137,24 @@
             <!-- Nivel de Inglés -->
             <div>
                 <label for="nivel_ingles" class="label-with-asterisk">Nivel de Inglés:</label>
-                <select name="nivel_ingles" id="nivel_ingles" class="compact-select" required>
-                    <option value="basico">Básico</option>
-                    <option value="intermedio">Intermedio</option>
-                    <option value="avanzado">Avanzado</option>
-                    <option value="fluido">Fluido</option>
-                </select>
+                <div class="radio-group">
+                    <div>
+                        <label for="nivel_ingles_basico">Básico</label>
+                        <input type="radio" name="nivel_ingles" id="nivel_ingles_basico" value="Básico">
+                    </div>
+                    <div>
+                        <label for="nivel_ingles_intermedio">Intermedio</label>
+                        <input type="radio" name="nivel_ingles" id="nivel_ingles_intermedio" value="Intermedio">
+                    </div>
+                    <div>
+                        <label for="nivel_ingles_avanzado">Avanzado</label>
+                        <input type="radio" name="nivel_ingles" id="nivel_ingles_avanzado" value="Avanzado">
+                    </div>
+                    <div>
+                        <label for="nivel_ingles_fluido">Fluido</label>
+                        <input type="radio" name="nivel_ingles" id="nivel_ingles_fluido" value="Fluido">
+                    </div>
+                </div>
             </div>
 
             <!-- Lenguajes de Programación -->
@@ -191,6 +202,14 @@
                     <option value="Trabajo en Equipo">
                     <option value="Adaptabilidad">
                     <option value="Aprendizaje y Desarrollo">
+                    <option value="Pensamiento Crítico">
+                    <option value="Empatía">
+                    <option value="Orientación a Resultados">
+                    <option value="Habilidades Organizativas">
+                    <option value="Capacidad de Negociación">
+                    <option value="Autonomía">
+                    <option value="Análisis de Datos">
+                    <option value="Gestión de Proyectos">
                 </datalist>
             </div>
 
@@ -200,6 +219,13 @@
                 <textarea name="perfil" id="perfil" required></textarea>
             </div>
 
+            <!-- Subir Foto -->
+            <div class="photo-upload">
+                <label for="foto">Subir Foto para Fotocarta:</label>
+                <input type="file" name="foto" id="foto" accept="image/*">
+            </div>
+
+            <!-- Botón de Enviar -->
             <input type="submit" value="Generar CV">
         </form>
     </div>
