@@ -1,17 +1,17 @@
 <?php
-// Verificar si se ha enviado una foto
+// SE ENVIO FOTO?
 if (isset($_FILES['foto']) && $_FILES['foto']['error'] === UPLOAD_ERR_OK) {
     $tmp_name = $_FILES['foto']['tmp_name'];
     $foto_path = 'uploads/' . basename($_FILES['foto']['name']);
     
-    // Crear el directorio de subida si no existe
+    // CREAR DIRECTORIO
     if (!is_dir('uploads')) {
         mkdir('uploads', 0777, true);
     }
     
-    // Mover el archivo subido al directorio de destino
+    // Mover el archivo(foto)
     if (move_uploaded_file($tmp_name, $foto_path)) {
-        // La foto se ha subido exitosamente
+        // SE SUBIO
     } else {
         $foto_path = 'fotocara.png'; // Ruta de la foto por defecto en caso de erroorrr
     }
@@ -19,7 +19,7 @@ if (isset($_FILES['foto']) && $_FILES['foto']['error'] === UPLOAD_ERR_OK) {
     $foto_path = 'fotocara.png'; // Ruta de la foto por defecto si no se sube ninguna foto
 }
 
-// Capturamos todos los datos enviados desde el formulario
+// Capturar datos enviados del formul
 $nombre = $_POST['nombre'];
 $fecha_nacimiento = $_POST['fecha_nacimiento'];
 $ocupacion = $_POST['ocupacion'];
@@ -28,7 +28,7 @@ $email = $_POST['email'];
 $nacionalidad = $_POST['nacionalidad'];
 $nivel_ingles = $_POST['nivel_ingles'];
 $lenguajes_programacion = $_POST['lenguajes_programacion'];
-$habilidades = isset($_POST['habilidades']) ? $_POST['habilidades'] : []; // Evitar error si no se selecciona ninguna habilidad
+$habilidades = isset($_POST['habilidades']) ? $_POST['habilidades'] : []; // Verificar error
 $aptitudes = $_POST['aptitudes'];
 $perfil = $_POST['perfil'];
 ?>

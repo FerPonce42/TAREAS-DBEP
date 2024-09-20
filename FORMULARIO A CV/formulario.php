@@ -192,7 +192,7 @@
                 </div>
             </div>
 
-            <!-- Aptitudes -->
+            <!-- Aptitudes WAAA-->
             <div class="compact">
                 <label for="aptitudes" class="label-with-asterisk">Aptitudes:</label>
                 <input list="aptitudes" name="aptitudes" id="aptitudes" required>
