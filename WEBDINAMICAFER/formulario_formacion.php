@@ -11,7 +11,7 @@
         <label for="institucion">Nombre de la Institución:</label>
         <input type="text" id="institucion" name="institucion" required><br><br>
         
-        <label for="titulo">Título:</label>
+        <label for="titulo">Título Obtenido:</label>
         <input type="text" id="titulo" name="titulo" required><br><br>
         
         <label for="fecha_inicio">Fecha de Inicio:</label>

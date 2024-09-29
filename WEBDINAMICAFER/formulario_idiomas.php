@@ -12,11 +12,7 @@
         <input type="text" id="idioma" name="idioma" required><br><br>
         
         <label for="nivel">Nivel:</label>
-        <select id="nivel" name="nivel" required>
-            <option value="Básico">Básico</option>
-            <option value="Intermedio">Intermedio</option>
-            <option value="Avanzado">Avanzado</option>
-        </select><br><br>
+        <input type="text" id="nivel" name="nivel" required><br><br>
         
         <input type="submit" value="Guardar">
     </form>

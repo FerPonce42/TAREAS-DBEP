@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Aptitudes/Habilidades</title>
+    <title>Formulario de Aptitudes</title>
 </head>
 <body>
     <h2>Agregar Aptitud/Habilidad</h2>
