@@ -10,16 +10,17 @@ if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
 
-$habilidad = $_POST['habilidad'];
+$habilidades = $_POST['habilidad'];
 
-$sql = "INSERT INTO aptitudes (habilidad) VALUES ('$habilidad')";
+foreach ($habilidades as $habilidad) {
+    if (empty($habilidad)) {
+        die("El campo Habilidad es obligatorio.");
+    }
 
-if ($conn->query($sql) === TRUE) {
-    header("Location: index.php"); // Redirige a index.php después de guardar
-    exit;
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    $sql = "INSERT INTO aptitudes (habilidad) VALUES ('$habilidad')";
+    $conn->query($sql);
 }
 
+header("Location: index.php");
 $conn->close();
 ?>

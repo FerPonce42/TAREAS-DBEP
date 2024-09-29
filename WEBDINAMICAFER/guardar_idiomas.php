@@ -10,17 +10,18 @@ if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
 
-$idioma = $_POST['idioma'];
-$nivel = $_POST['nivel'];
+$idiomas = $_POST['idioma'];
+$niveles = $_POST['nivel'];
 
-$sql = "INSERT INTO idiomas (idioma, nivel) VALUES ('$idioma', '$nivel')";
+foreach ($idiomas as $i => $idioma) {
+    if (empty($idioma) || empty($niveles[$i])) {
+        die("Los campos Idioma y Nivel son obligatorios.");
+    }
 
-if ($conn->query($sql) === TRUE) {
-    header("Location: index.php"); // Redirige a index.php después de guardar
-    exit;
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    $sql = "INSERT INTO idiomas (idioma, nivel) VALUES ('$idioma', '$niveles[$i]')";
+    $conn->query($sql);
 }
 
+header("Location: index.php");
 $conn->close();
 ?>

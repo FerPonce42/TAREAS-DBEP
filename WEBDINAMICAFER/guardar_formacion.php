@@ -10,19 +10,23 @@ if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
 
-$institucion = $_POST['institucion'];
-$titulo = $_POST['titulo'];
-$fecha_inicio = $_POST['fecha_inicio'];
-$fecha_fin = $_POST['fecha_fin'];
+$instituciones = $_POST['institucion'];
+$titulos = $_POST['titulo'];
+$fechas_inicio = $_POST['fecha_inicio'];
+$fechas_fin = $_POST['fecha_fin'];
 
-$sql = "INSERT INTO formacion (institucion, titulo, fecha_inicio, fecha_fin) VALUES ('$institucion', '$titulo', '$fecha_inicio', '$fecha_fin')";
+foreach ($instituciones as $i => $institucion) {
+    if (empty($institucion) || empty($titulos[$i]) || empty($fechas_inicio[$i])) {
+        die("Los campos Institución, Título y Fecha de Inicio son obligatorios.");
+    }
+    if (!empty($fechas_fin[$i]) && $fechas_fin[$i] < $fechas_inicio[$i]) {
+        die("La fecha de fin no puede ser anterior a la fecha de inicio en el campo " . ($i + 1));
+    }
 
-if ($conn->query($sql) === TRUE) {
-    header("Location: index.php"); // Redirige a index.php después de guardar
-    exit;
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    $sql = "INSERT INTO formacion (institucion, titulo, fecha_inicio, fecha_fin) VALUES ('$institucion', '$titulos[$i]', '$fechas_inicio[$i]', '$fechas_fin[$i]')";
+    $conn->query($sql);
 }
 
+header("Location: index.php");
 $conn->close();
 ?>
