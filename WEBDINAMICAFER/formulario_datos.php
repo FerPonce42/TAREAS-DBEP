@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Datos</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
 </head>
 <body>
 
 <h2>Formulario Unificado</h2>
-<form action="guardar_datos.php" method="POST">
+<form id="mainForm" action="guardar_datos.php" method="POST" onsubmit="return validarFormulario();">
 
     <!-- Aptitudes -->
     <h3>Aptitudes/Habilidades</h3>
@@ -17,6 +23,7 @@
         <div class="aptitud">
             <label for="habilidad">Habilidad:</label>
             <input type="text" name="habilidad[]" required><br><br>
+            <span class="error" id="habilidadError"></span>
         </div>
     </div>
     <button type="button" onclick="agregarAptitud()">Agregar más aptitud</button>
@@ -125,6 +132,29 @@
             <input type="text" name="nivel[]" required><br><br>
         `;
         container.appendChild(nuevoIdioma);
+    }
+
+    // Validación del formulario
+    function validarFormulario() {
+        const form = document.getElementById('mainForm');
+        const inputs = form.querySelectorAll('input[required]');
+
+        let valido = true;
+
+        inputs.forEach(input => {
+            if (input.value.trim() === '') {
+                input.style.borderColor = 'red';
+                valido = false;
+            } else {
+                input.style.borderColor = '';
+            }
+        });
+
+        if (!valido) {
+            alert('LLENAR TODOS LOS CAMPOS, POR FAVORR');
+        }
+
+        return valido;
     }
 </script>
 

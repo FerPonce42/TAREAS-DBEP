@@ -1,5 +1,5 @@
 <?php
-// Datos de la conexión
+// DATOS
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -62,13 +62,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-    // Mensaje de confirmación
-    echo "Datos guardados correctamente";
+    // Mensaje de confirmación, al eviar todo
+    echo "SE GUARDO CORRECTAMENTE!!!!";
 }
 
 // Cerrar la conexión
 $conn->close();
 ?>
 
-<!-- Enlace para regresar al menú -->
+<!-- UN RETURN PARA EL MENU -->
 <a href="index.php">Volver al menú</a>
