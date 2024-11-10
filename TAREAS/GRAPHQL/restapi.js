@@ -7,6 +7,15 @@ app.get('/saludo', (req, res) => {
   res.json({ mensaje: `¡Hola, ${nombre}!` });
 });
 
+app.get('/edad', (req, res) => {
+  const id = req.query.id;
+  if (id == 1) {
+    res.json({ edad: 19 });
+  } else {
+    res.json({ edad: 15 });
+  }
+});
+
 app.listen(port, () => {
   console.log(`Servidor REST listo en http://localhost:${port}`);
 });
