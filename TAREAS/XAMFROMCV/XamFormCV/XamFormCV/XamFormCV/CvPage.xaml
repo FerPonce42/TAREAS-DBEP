@@ -5,7 +5,7 @@
 
     <ScrollView Padding="20">
         <StackLayout>
-            <!-- Imagen de perfil -->
+            <!-- Imagen de perfil Por favor, compilas, porque compilas -->
             <Image Source="profile_image.png" 
                    WidthRequest="150" 
                    HeightRequest="150" 
