@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+    background-color: #808080; /* Fondo gris */
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px; /* 4 columnas */
+    grid-template-rows: 100px 100px; /* 2 filas */
+    grid-column-gap: 100px; /* Separación de un bloque entre columnas */
+    grid-row-gap: 5px; /* Mantiene la separación de filas */
+    justify-items: end;
+    align-items: stretch;
+  }
+
+  .grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6 {
+    background: blue;
+    text-align: center;
+    border: black 5px solid;
+    width: 100px;
+    height: 100px;
+  }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-item1">1</div>
+  <div class="grid-item2">2</div>
+  <div class="grid-item3">3</div>
+  <div class="grid-item4">4</div>
+  <div class="grid-item5">5</div>
+  <div class="grid-item6">6</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamFormCV.CvPage">
+
+    <ScrollView Padding="20">
+        <StackLayout>
+            <!-- Imagen de perfil -->
+            <Image Source="profile_image.png" 
+                   WidthRequest="150" 
+                   HeightRequest="150" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Start" />
+
+            <!-- Nombre -->
+            <Label Text="Fernando Ponce" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   Margin="0,10,0,5"/>
+
+            <!-- Descripción -->
+            <Label Text="Soy desarrollador de software con experiencia en tecnologías móviles y web."
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,20"/>
+
+            <!-- Habilidades -->
+            <Label Text="Habilidades"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Start"
+                   Margin="0,10,0,5"/>
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Label Text="C#" />
+                <Label Text="Xamarin" />
+                <Label Text="SQL" />
+            </StackLayout>
+
+            <!-- Experiencia -->
+            <Label Text="Experiencia"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Start"
+                   Margin="0,10,0,5"/>
+            <StackLayout>
+                <Label Text="Desarrollador Junior en XYZ Corp (2022-Presente)" />
+                <Label Text="Desarrollador Interno en ABC Ltd (2021-2022)" />
+            </StackLayout>
+
+            <!-- Educación -->
+            <Label Text="Educación"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Start"
+                   Margin="0,10,0,5"/>
+            <StackLayout>
+                <Label Text="Licenciatura en Ciencias de la Computación, Universidad XYZ (2019-2023)" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

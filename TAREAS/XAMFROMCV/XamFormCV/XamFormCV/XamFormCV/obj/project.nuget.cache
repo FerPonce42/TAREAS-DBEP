@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bQ+VYYG/PJY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\XamFormCV.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fernando Ponce\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Fernando Ponce\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Fernando Ponce\\.nuget\\packages\\xamarin.forms\\5.0.0.2662\\xamarin.forms.5.0.0.2662.nupkg.sha512"
+  ],
+  "logs": []
+}

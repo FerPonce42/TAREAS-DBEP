@@ -1,0 +1,11 @@
+type Query {
+    hola: String!
+    saludo(nombre: String!): String!
+    obtenerPersona(id: ID!): Persona
+}
+
+type Persona {
+    id: ID!
+    nombre: String!
+    edad: Int!
+}

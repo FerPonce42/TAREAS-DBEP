@@ -1,0 +1,29 @@
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.csproj.AssemblyReference.cache
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\bin\Debug\netstandard2.0\XamFormCV.deps.json
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\bin\Debug\netstandard2.0\XamFormCV.dll
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\bin\Debug\netstandard2.0\XamFormCV.pdb
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.AssemblyInfoInputs.cache
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.AssemblyInfo.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.sourcelink.json
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.dll
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.pdb
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMARIN FROM AND CV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\CvPage.xaml.g.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\bin\Debug\netstandard2.0\XamFormCV.deps.json
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\bin\Debug\netstandard2.0\XamFormCV.dll
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\bin\Debug\netstandard2.0\XamFormCV.pdb
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.csproj.AssemblyReference.cache
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\CvPage.xaml.g.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.AssemblyInfoInputs.cache
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.AssemblyInfo.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.dll
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.pdb
