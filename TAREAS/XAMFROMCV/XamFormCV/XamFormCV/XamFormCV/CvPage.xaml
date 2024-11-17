@@ -25,49 +25,57 @@
             </StackLayout>
 
             <!-- Sección Contacto, Idiomas, Aptitudes, Habilidades y Otros Intereses con fondo azul claro -->
-            <StackLayout BackgroundColor="#cce0ff" Padding="10">
-                <Label Text="CONTACTO" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
-                <Label Text="950000993" FontSize="14" TextColor="Black" />
-                <Label Text="angel.pacsi@ucsp.edu.pe" FontSize="14" TextColor="Black" />
-                <Label Text="Perú" FontSize="14" TextColor="Black" />
-                <Label Text="linkedin.com/FerPonce42" FontSize="14" TextColor="Black" />
+            <StackLayout BackgroundColor="#083c6c" Padding="10">
+                <Label Text="CONTACTO" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,5"/>
+                <Label Text="📞 950000993" FontSize="14" TextColor="White" />
+                <Label Text="📧 angel.pacsi@ucsp.edu.pe" FontSize="14" TextColor="White" />
+                <Label Text="🇵🇪 Perú" FontSize="14" TextColor="White" />
+                <Label Text="🔗 linkedin.com/FerPonce42" FontSize="14" TextColor="White" />
 
-                <Label Text="IDIOMAS" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
-                <Label Text="Español: Nativo" FontSize="14" TextColor="Black" />
-                <Label Text="Inglés: Lamentable" FontSize="14" TextColor="Black" />
+                <Label Text="IDIOMAS" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,5"/>
+                <Label Text="• Español: Nativo" FontSize="14" TextColor="White" />
+                <Label Text="• Inglés: Lamentable" FontSize="14" TextColor="White" />
 
-                <Label Text="APTITUDES" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
-                <Label Text="Comunicación" FontSize="14" TextColor="Black" />
-                <Label Text="Gestión del Tiempo" FontSize="14" TextColor="Black" />
-                <Label Text="Trabajo en Equipo" FontSize="14" TextColor="Black" />
-                <Label Text="Adaptabilidad" FontSize="14" TextColor="Black" />
-                <Label Text="Aprendizaje y Desarrollo" FontSize="14" TextColor="Black" />
+                <Label Text="APTITUDES" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,5"/>
+                <Label Text="• Comunicación" FontSize="14" TextColor="White" />
+                <Label Text="• Gestión del Tiempo" FontSize="14" TextColor="White" />
+                <Label Text="• Trabajo en Equipo" FontSize="14" TextColor="White" />
+                <Label Text="• Adaptabilidad" FontSize="14" TextColor="White" />
+                <Label Text="• Aprendizaje y Desarrollo" FontSize="14" TextColor="White" />
 
-                <Label Text="HABILIDADES" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <Label Text="HABILIDADES" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,5"/>
                 <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Start">
-                    <Label Text="C++" BackgroundColor="LightGray" Padding="5"/>
-                    <Label Text="Python" BackgroundColor="LightGray" Padding="5"/>
-                    <Label Text="HTML" BackgroundColor="LightGray" Padding="5"/>
+                    <Label Text="C++" BackgroundColor="Black" Padding="5"/>
+                    <Label Text="Python" BackgroundColor="Black" Padding="5"/>
+                    <Label Text="HTML" BackgroundColor="Black" Padding="5"/>
                 </StackLayout>
 
-                <Label Text="OTROS INTERESES" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
-                <Label Text="Taekwondo" FontSize="14" TextColor="Black"/>
+                <Label Text="OTROS INTERESES" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,5"/>
+                <Label Text="• Taekwondo" FontSize="14" TextColor="White"/>
             </StackLayout>
 
             <!-- Sección Perfil Profesional, Experiencia Laboral y Formación con fondo gris claro -->
-            <StackLayout BackgroundColor="#f2f2f2" Padding="10">
+            <StackLayout BackgroundColor="#d8d4d4" Padding="10">
                 <Label Text="PERFIL PROFESIONAL" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <BoxView HeightRequest="1" BackgroundColor="#001f3d" Margin="0,5"/>
                 <Label Text="Estudiante de Ciencia de la Computación con experiencia en el desarrollo de videojuegos utilizando C++, aplicando conceptos de POO. Destacado en la implementación exitosa de criterios técnicos durante la evaluación de proyectos. Experiencia adicional en atención al cliente y apoyo en cocina en el sector de servicios."
                        FontSize="14" TextColor="Black"/>
 
                 <Label Text="EXPERIENCIA LABORAL" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <BoxView HeightRequest="1" BackgroundColor="#001f3d" Margin="0,5"/>
                 <Label Text="Mesero y Ayudante de Cocina" FontSize="16" TextColor="Black"/>
                 <Label Text="Ubicación: Cevichería 'EL BARQUITO'" FontSize="14" TextColor="Black"/>
                 <Label Text="Fechas: 2021 - Actualidad" FontSize="14" TextColor="Black"/>
-                <Label Text="Atención al cliente, gestionando pedidos y resolviendo inquietudes." FontSize="14" TextColor="Black"/>
-                <Label Text="Apoyo en la preparación y presentación de alimentos en cocina." FontSize="14" TextColor="Black"/>
+                <Label Text="  • Atención al cliente, gestionando pedidos y resolviendo inquietudes." FontSize="14" TextColor="Black"/>
+                <Label Text="  • Apoyo en la preparación y presentación de alimentos en cocina." FontSize="14" TextColor="Black"/>
 
                 <Label Text="FORMACIÓN" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <BoxView HeightRequest="1" BackgroundColor="#001f3d" Margin="0,5"/>
                 <Label Text="Título: Licenciado en Ciencia de la Computación (en proceso)" FontSize="14" TextColor="Black"/>
                 <Label Text="Institución: Universidad Católica San Pablo, Arequipa, Perú" FontSize="14" TextColor="Black"/>
                 <Label Text="Fechas: Inicio en 2023 - Estudio en curso" FontSize="14" TextColor="Black"/>
