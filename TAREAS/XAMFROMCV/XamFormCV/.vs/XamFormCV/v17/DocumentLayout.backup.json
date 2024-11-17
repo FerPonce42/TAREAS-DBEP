@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamfromcv\\xamformcv\\xamformcv\\xamformcv\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|solutionrelative:xamformcv\\xamformcv\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamfromcv\\xamformcv\\xamformcv\\xamformcv\\cvpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|solutionrelative:xamformcv\\xamformcv\\cvpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamfromcv\\xamformcv\\xamformcv\\xamformcv\\cvpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|solutionrelative:xamformcv\\xamformcv\\cvpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
@@ -21,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamfromcv\\xamformcv\\xamformcv\\xamformcv\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|solutionrelative:xamformcv\\xamformcv\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamfromcv\\xamformcv\\xamformcv\\xamformcv\\cvpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|solutionrelative:xamformcv\\xamformcv\\cvpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamfromcv\\xamformcv\\xamformcv\\xamformcv\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|solutionrelative:xamformcv\\xamformcv\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AFF99AB-3801-418A-B06A-D4E94193005B}|XamFormCV\\XamFormCV\\XamFormCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamfromcv\\xamformcv\\xamformcv\\xamformcv\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,15 +49,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\MainPage.xaml",
+              "RelativeDocumentMoniker": "XamFormCV\\XamFormCV\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\MainPage.xaml",
+              "RelativeToolTip": "XamFormCV\\XamFormCV\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T21:23:22.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "XamFormCV\\XamFormCV\\AssemblyInfo.cs",
@@ -70,27 +79,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CvPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\CvPage.xaml.cs",
               "RelativeDocumentMoniker": "XamFormCV\\XamFormCV\\CvPage.xaml.cs",
               "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\CvPage.xaml.cs",
               "RelativeToolTip": "XamFormCV\\XamFormCV\\CvPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:40:28.409Z"
+              "WhenOpened": "2024-11-17T21:40:28.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CvPage.xaml",
               "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\CvPage.xaml",
               "RelativeDocumentMoniker": "XamFormCV\\XamFormCV\\CvPage.xaml",
               "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\CvPage.xaml",
               "RelativeToolTip": "XamFormCV\\XamFormCV\\CvPage.xaml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwFgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-17T21:40:22.446Z"
+              "WhenOpened": "2024-11-17T21:40:22.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "XamFormCV\\XamFormCV\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\MainPage.xaml.cs",
+              "RelativeToolTip": "XamFormCV\\XamFormCV\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T21:23:06.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Document",
@@ -112,9 +140,23 @@
               "RelativeDocumentMoniker": "XamFormCV\\XamFormCV\\App.xaml.cs",
               "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\App.xaml.cs",
               "RelativeToolTip": "XamFormCV\\XamFormCV\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:31:34.319Z"
+              "WhenOpened": "2024-11-17T21:31:34.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\App.xaml",
+              "RelativeDocumentMoniker": "XamFormCV\\XamFormCV\\App.xaml",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\App.xaml",
+              "RelativeToolTip": "XamFormCV\\XamFormCV\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-17T21:27:18.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -128,42 +170,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2024-11-17T21:29:37.398Z",
               "EditorCaption": " [Solo lectura]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\App.xaml",
-              "RelativeDocumentMoniker": "XamFormCV\\XamFormCV\\App.xaml",
-              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\App.xaml",
-              "RelativeToolTip": "XamFormCV\\XamFormCV\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-17T21:27:18.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "XamFormCV\\XamFormCV\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\MainPage.xaml.cs",
-              "RelativeToolTip": "XamFormCV\\XamFormCV\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:23:06.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\MainPage.xaml",
-              "RelativeDocumentMoniker": "XamFormCV\\XamFormCV\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMFROMCV\\XamFormCV\\XamFormCV\\XamFormCV\\MainPage.xaml",
-              "RelativeToolTip": "XamFormCV\\XamFormCV\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-17T21:23:22.498Z"
             },
             {
               "$type": "Document",

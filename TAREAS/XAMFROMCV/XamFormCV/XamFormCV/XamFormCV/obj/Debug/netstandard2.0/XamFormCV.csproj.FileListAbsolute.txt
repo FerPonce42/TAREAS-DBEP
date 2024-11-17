@@ -27,3 +27,4 @@ C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamForm
 C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.dll
 C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.pdb
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV\obj\Debug\netstandard2.0\XamFormCV.sourcelink.json
