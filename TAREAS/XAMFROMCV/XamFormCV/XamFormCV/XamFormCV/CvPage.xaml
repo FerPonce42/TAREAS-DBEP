@@ -6,85 +6,73 @@
     <ScrollView Padding="20">
         <StackLayout>
 
-            <!-- Foto de perfil en la parte superior izquierda -->
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <!-- Foto de perfil con fondo azul que cubre toda la parte superior -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#001f3d" Padding="20">
                 <Image Source="profile_image.png" 
                        WidthRequest="100" 
                        HeightRequest="100" 
                        HorizontalOptions="Start" 
                        VerticalOptions="Start" />
-                <StackLayout Padding="10, 0, 0, 0" VerticalOptions="Start">
+                <StackLayout Padding="50, 5, 0, 0" VerticalOptions="Start">
                     <Label Text="Fernando Ponce" 
                            FontSize="24" 
                            FontAttributes="Bold" 
-                           HorizontalOptions="Start" />
-                    <Label Text="Puesto Buscado: Desarrollador de Software" 
+                           HorizontalOptions="Start" TextColor="White"/>
+                    <Label Text="Desarrollador de Software" 
                            FontSize="16" 
-                           HorizontalOptions="Start" />
+                           HorizontalOptions="Start" TextColor="White"/>
                 </StackLayout>
             </StackLayout>
 
-            <!-- Línea de separación -->
-            <BoxView HeightRequest="1" Color="Gray" Margin="0, 20, 0, 20" />
+            <!-- Sección Contacto, Idiomas, Aptitudes, Habilidades y Otros Intereses con fondo azul claro -->
+            <StackLayout BackgroundColor="#cce0ff" Padding="10">
+                <Label Text="CONTACTO" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <Label Text="950000993" FontSize="14" TextColor="Black" />
+                <Label Text="angel.pacsi@ucsp.edu.pe" FontSize="14" TextColor="Black" />
+                <Label Text="Perú" FontSize="14" TextColor="Black" />
+                <Label Text="linkedin.com/FerPonce42" FontSize="14" TextColor="Black" />
 
-            <!-- Contacto, Idiomas, Aptitudes -->
-            <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto" ColumnDefinitions="Auto">
-                <Label Text="CONTACTO" FontSize="18" FontAttributes="Bold" Grid.Row="0"/>
-                <StackLayout Grid.Row="1">
-                    <Label Text="950000993" FontSize="14" />
-                    <Label Text="angel.pacsi@ucsp.edu.pe" FontSize="14" />
-                    <Label Text="Perú" FontSize="14" />
-                    <Label Text="linkedin.com/FerPonce42" FontSize="14" />
+                <Label Text="IDIOMAS" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <Label Text="Español: Nativo" FontSize="14" TextColor="Black" />
+                <Label Text="Inglés: Lamentable" FontSize="14" TextColor="Black" />
+
+                <Label Text="APTITUDES" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <Label Text="Comunicación" FontSize="14" TextColor="Black" />
+                <Label Text="Gestión del Tiempo" FontSize="14" TextColor="Black" />
+                <Label Text="Trabajo en Equipo" FontSize="14" TextColor="Black" />
+                <Label Text="Adaptabilidad" FontSize="14" TextColor="Black" />
+                <Label Text="Aprendizaje y Desarrollo" FontSize="14" TextColor="Black" />
+
+                <Label Text="HABILIDADES" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Start">
+                    <Label Text="C++" BackgroundColor="LightGray" Padding="5"/>
+                    <Label Text="Python" BackgroundColor="LightGray" Padding="5"/>
+                    <Label Text="HTML" BackgroundColor="LightGray" Padding="5"/>
                 </StackLayout>
 
-                <Label Text="IDIOMAS" FontSize="18" FontAttributes="Bold" Grid.Row="2"/>
-                <StackLayout Grid.Row="3">
-                    <Label Text="Español: Nativo" FontSize="14" />
-                    <Label Text="Inglés: Lamentable" FontSize="14" />
-                </StackLayout>
-
-                <Label Text="APTITUDES" FontSize="18" FontAttributes="Bold" Grid.Row="4"/>
-                <StackLayout Grid.Row="5">
-                    <Label Text="Comunicación" FontSize="14" />
-                    <Label Text="Gestión del Tiempo" FontSize="14" />
-                    <Label Text="Trabajo en Equipo" FontSize="14" />
-                    <Label Text="Adaptabilidad" FontSize="14" />
-                    <Label Text="Aprendizaje y Desarrollo" FontSize="14" />
-                </StackLayout>
-            </Grid>
-
-            <!-- Habilidades -->
-            <Label Text="HABILIDADES" FontSize="18" FontAttributes="Bold" HorizontalOptions="Start" Margin="20,20,0,5"/>
-            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Start">
-                <Label Text="C++" BackgroundColor="LightGray" Padding="5"/>
-                <Label Text="Python" BackgroundColor="LightGray" Padding="5"/>
-                <Label Text="HTML" BackgroundColor="LightGray" Padding="5"/>
+                <Label Text="OTROS INTERESES" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <Label Text="Taekwondo" FontSize="14" TextColor="Black"/>
             </StackLayout>
 
-            <!-- Otros intereses -->
-            <Label Text="OTROS INTERESES" FontSize="18" FontAttributes="Bold" HorizontalOptions="Start" Margin="20,20,0,5"/>
-            <Label Text="Taekwondo" FontSize="14" HorizontalOptions="Start" />
+            <!-- Sección Perfil Profesional, Experiencia Laboral y Formación con fondo gris claro -->
+            <StackLayout BackgroundColor="#f2f2f2" Padding="10">
+                <Label Text="PERFIL PROFESIONAL" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <Label Text="Estudiante de Ciencia de la Computación con experiencia en el desarrollo de videojuegos utilizando C++, aplicando conceptos de POO. Destacado en la implementación exitosa de criterios técnicos durante la evaluación de proyectos. Experiencia adicional en atención al cliente y apoyo en cocina en el sector de servicios."
+                       FontSize="14" TextColor="Black"/>
 
-            <!-- Perfil profesional -->
-            <Label Text="PERFIL PROFESIONAL" FontSize="18" FontAttributes="Bold" HorizontalOptions="Start" Margin="20,20,0,5"/>
-            <Label Text="Estudiante de Ciencia de la Computación con experiencia en el desarrollo de videojuegos utilizando C++, aplicando conceptos de POO. Destacado en la implementación exitosa de criterios técnicos durante la evaluación de proyectos. Experiencia adicional en atención al cliente y apoyo en cocina en el sector de servicios."
-                   FontSize="14" HorizontalOptions="Start" />
+                <Label Text="EXPERIENCIA LABORAL" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <Label Text="Mesero y Ayudante de Cocina" FontSize="16" TextColor="Black"/>
+                <Label Text="Ubicación: Cevichería 'EL BARQUITO'" FontSize="14" TextColor="Black"/>
+                <Label Text="Fechas: 2021 - Actualidad" FontSize="14" TextColor="Black"/>
+                <Label Text="Atención al cliente, gestionando pedidos y resolviendo inquietudes." FontSize="14" TextColor="Black"/>
+                <Label Text="Apoyo en la preparación y presentación de alimentos en cocina." FontSize="14" TextColor="Black"/>
 
-            <!-- Experiencia laboral -->
-            <Label Text="EXPERIENCIA LABORAL" FontSize="18" FontAttributes="Bold" HorizontalOptions="Start" Margin="20,20,0,5"/>
-            <StackLayout>
-                <Label Text="Mesero y Ayudante de Cocina" FontSize="16" />
-                <Label Text="Ubicación: Cevichería 'EL BARQUITO'" FontSize="14" />
-                <Label Text="Fechas: 2021 - Actualidad" FontSize="14" />
-                <Label Text="Atención al cliente, gestionando pedidos y resolviendo inquietudes." FontSize="14" />
-                <Label Text="Apoyo en la preparación y presentación de alimentos en cocina." FontSize="14" />
+                <Label Text="FORMACIÓN" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <Label Text="Título: Licenciado en Ciencia de la Computación (en proceso)" FontSize="14" TextColor="Black"/>
+                <Label Text="Institución: Universidad Católica San Pablo, Arequipa, Perú" FontSize="14" TextColor="Black"/>
+                <Label Text="Fechas: Inicio en 2023 - Estudio en curso" FontSize="14" TextColor="Black"/>
             </StackLayout>
 
-            <!-- Formación -->
-            <Label Text="FORMACIÓN" FontSize="18" FontAttributes="Bold" HorizontalOptions="Start" Margin="20,20,0,5"/>
-            <Label Text="Título: Licenciado en Ciencia de la Computación (en proceso)" FontSize="14" />
-            <Label Text="Institución: Universidad Católica San Pablo, Arequipa, Perú" FontSize="14" />
-            <Label Text="Fechas: Inicio en 2023 - Estudio en curso" FontSize="14" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

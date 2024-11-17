@@ -1,8 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamFormCV.App">
     <Application.Resources>
-        <!-- Recurso global, puedes agregar estilos aquí si lo necesitas -->
+        <!-- Colores principales -->
+        <Color x:Key="DarkBlue">#0D1B2A</Color>
+        <!-- Azul marino casi negro -->
+        <Color x:Key="LightBlue">#1E3A5F</Color>
+        <!-- Azul más claro -->
+        <Color x:Key="GrayishBlue">#A3B9D2</Color>
+        <!-- Gris azulado suave -->
+        <Color x:Key="LightGray">#D3D3D3</Color>
+        <!-- Gris suave -->
+
+        <!-- Colores adicionales -->
+        <Color x:Key="SeparatorLine">#4C6A92</Color>
+        <!-- Azul gris para las separaciones -->
+
+        <!-- Fuentes, tamaños, otros recursos (si los necesitas) -->
     </Application.Resources>
 </Application>
