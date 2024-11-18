@@ -636,3 +636,4 @@ C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV
 C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV.Android\obj\Debug\130\android\src\crc64a0e0a82d0db9a07d\Connectivity_EssentialsNetworkCallback.java

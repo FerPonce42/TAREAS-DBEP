@@ -9,7 +9,7 @@ namespace XamGenerateCV
         {
             InitializeComponent();
 
-            // Asignamos los datos a las etiquetas
+            // Asignar los datos a las etiquetas
             nameLabel.Text = name;
             positionLabel.Text = position;
             phoneLabel.Text = $"📞 {phone}";
@@ -22,7 +22,7 @@ namespace XamGenerateCV
             experienceLabel.Text = experience;
             educationLabel.Text = education;
 
-            // Asignamos la imagen del perfil si se proporcionó
+            // Asignarr la imagen del perfil si se proporcionó
             if (!string.IsNullOrEmpty(imagePath))
             {
                 profileImage.Source = ImageSource.FromFile(imagePath);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XamGenerateCV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12e81aab987eb2fa4db610baba60d93997f6c9bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6815a8aef560753fd3f91cdbb962ae50f12b9720")]
 [assembly: System.Reflection.AssemblyProductAttribute("XamGenerateCV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XamGenerateCV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
