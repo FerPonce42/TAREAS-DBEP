@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XamFormCV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45fe2010674281e9193b3f8a7349000d4bb9e277")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df2b889247a9344e10756f2b79f7136e8850e672")]
 [assembly: System.Reflection.AssemblyProductAttribute("XamFormCV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XamFormCV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
