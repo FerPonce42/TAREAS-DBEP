@@ -1400,3 +1400,4 @@ C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamForm
 C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMFROMCV\XamFormCV\XamFormCV\XamFormCV.Android\obj\Debug\130\res\drawable\fotocara.jpg

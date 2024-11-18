@@ -6,7 +6,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove="fotocara.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Xamarin.Forms" Version="5.0.0.2662" />
+		
 	</ItemGroup>
 
 	<ItemGroup>
