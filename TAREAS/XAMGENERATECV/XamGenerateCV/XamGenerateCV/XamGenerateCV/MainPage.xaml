@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamGenerateCV.MainPage">
+
+    <ScrollView Padding="20">
+        <StackLayout>
+
+            <!-- Título y subtítulo -->
+            <Label Text="Xamarin - Generate CV"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="White" />
+
+            <Label Text="CV Dinámico"
+                   FontSize="18"
+                   FontAttributes="Italic"
+                   HorizontalOptions="Center"
+                   TextColor="White"
+                   Margin="0,5,0,20" />
+
+            <!-- Campos para los datos -->
+            <Label Text="Nombre completo: " FontSize="16" TextColor="White"/>
+            <Entry x:Name="nameEntry" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <Label Text="Cargo profesional:" FontSize="16" TextColor="White"/>
+            <Entry x:Name="positionEntry" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <Label Text="Teléfono:" FontSize="16" TextColor="White"/>
+            <Entry x:Name="phoneEntry" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <Label Text="Correo electrónico:" FontSize="16" TextColor="White"/>
+            <Entry x:Name="emailEntry" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <Label Text="País:" FontSize="16" TextColor="White"/>
+            <Entry x:Name="countryEntry" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <Label Text="LinkedIn:" FontSize="16" TextColor="White"/>
+            <Entry x:Name="linkedinEntry" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <Label Text="Idiomas(separados por comas):" FontSize="16" TextColor="White"/>
+            <Entry x:Name="languageEntry" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <Label Text="Habilidades(separadas por comas):" FontSize="16" TextColor="White"/>
+            <Entry x:Name="skillsEntry" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <Label Text="Perfil profesional:" FontSize="16" TextColor="White"/>
+            <Editor x:Name="profileEntry" HeightRequest="100" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <Label Text="Experiencia laboral:" FontSize="16" TextColor="White"/>
+            <Editor x:Name="experienceEntry" HeightRequest="100" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <Label Text="Formación académica:" FontSize="16" TextColor="White"/>
+            <Editor x:Name="educationEntry" HeightRequest="100" BackgroundColor="#1E2A3A" TextColor="White" />
+
+            <!-- Botón para generar el CV -->
+            <Button Text="Generar CV"
+                    BackgroundColor="#083c6c"
+                    TextColor="White"
+                    FontSize="18"
+                    HeightRequest="50"
+                    CornerRadius="10"
+                    Margin="0,20,0,0"
+                    Clicked="OnCvPageButtonClicked" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

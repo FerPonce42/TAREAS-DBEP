@@ -1,0 +1,17 @@
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\bin\Debug\netstandard2.0\XamGenerateCV.deps.json
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\bin\Debug\netstandard2.0\XamGenerateCV.dll
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\bin\Debug\netstandard2.0\ref\XamGenerateCV.dll
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\bin\Debug\netstandard2.0\XamGenerateCV.pdb
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\XamGenerateCV.csproj.AssemblyReference.cache
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\XamGenerateCV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\XamGenerateCV.AssemblyInfoInputs.cache
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\XamGenerateCV.AssemblyInfo.cs
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\XamGenerateCV.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\XamGenerateCV.sourcelink.json
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\XamGenerateCV.dll
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\refint\XamGenerateCV.dll
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\XamGenerateCV.pdb
+C:\Users\Fernando Ponce\Documents\TAREAS-DBEP\TAREAS\XAMGENERATECV\XamGenerateCV\XamGenerateCV\XamGenerateCV\obj\Debug\netstandard2.0\CvPage.xaml.g.cs

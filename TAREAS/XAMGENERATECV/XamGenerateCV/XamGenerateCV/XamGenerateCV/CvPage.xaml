@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamGenerateCV.CvPage">
+
+    <ScrollView Padding="20">
+        <StackLayout>
+
+            <!-- Foto de perfil con fondo azul que cubre toda la parte superior -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="#001f3d" Padding="20">
+                <Image x:Name="profileImage" 
+                       WidthRequest="100" 
+                       HeightRequest="100" 
+                       HorizontalOptions="Start" 
+                       VerticalOptions="Start" 
+                       Source="placeholder.jpg" />
+                <StackLayout Padding="20, 5, 0, 0" VerticalOptions="Start">
+                    <Label x:Name="nameLabel" 
+                           FontSize="24" 
+                           FontAttributes="Bold" 
+                           HorizontalOptions="Start" 
+                           TextColor="White"/>
+                    <Label x:Name="positionLabel" 
+                           FontSize="16" 
+                           HorizontalOptions="Start" 
+                           TextColor="White"/>
+                </StackLayout>
+            </StackLayout>
+
+            <!-- Información de contacto -->
+            <StackLayout BackgroundColor="#083c6c" Padding="10">
+                <Label Text="CONTACTO" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,5"/>
+                <Label x:Name="phoneLabel" FontSize="14" TextColor="White" />
+                <Label x:Name="emailLabel" FontSize="14" TextColor="White" />
+                <Label x:Name="countryLabel" FontSize="14" TextColor="White" />
+                <Label x:Name="linkedinLabel" FontSize="14" TextColor="White" />
+            </StackLayout>
+
+            <!-- Idiomas -->
+            <StackLayout BackgroundColor="#083c6c" Padding="10">
+                <Label Text="IDIOMAS" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,5"/>
+                <Label x:Name="languagesLabel" FontSize="14" TextColor="White" />
+            </StackLayout>
+
+            <!-- Aptitudes -->
+            <StackLayout BackgroundColor="#083c6c" Padding="10">
+                <Label Text="APTITUDES" FontSize="18" FontAttributes="Bold" TextColor="White"/>
+                <BoxView HeightRequest="1" BackgroundColor="White" Margin="0,5"/>
+                <Label x:Name="skillsLabel" FontSize="14" TextColor="White" />
+            </StackLayout>
+
+            <!-- Más secciones (Perfil, Experiencia, Educación) -->
+            <StackLayout BackgroundColor="#d8d4d4" Padding="10">
+                <Label Text="PERFIL PROFESIONAL" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <BoxView HeightRequest="1" BackgroundColor="#001f3d" Margin="0,5"/>
+                <Label x:Name="profileLabel" FontSize="14" TextColor="Black"/>
+
+                <Label Text="EXPERIENCIA LABORAL" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <BoxView HeightRequest="1" BackgroundColor="#001f3d" Margin="0,5"/>
+                <Label x:Name="experienceLabel" FontSize="14" TextColor="Black"/>
+
+                <Label Text="FORMACIÓN" FontSize="18" FontAttributes="Bold" TextColor="#001f3d"/>
+                <BoxView HeightRequest="1" BackgroundColor="#001f3d" Margin="0,5"/>
+                <Label x:Name="educationLabel" FontSize="14" TextColor="Black"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

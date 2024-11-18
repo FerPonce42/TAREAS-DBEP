@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|solutionrelative:xamgeneratecv\\xamgeneratecv\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|solutionrelative:xamgeneratecv\\xamgeneratecv\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\cvpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|solutionrelative:xamgeneratecv\\xamgeneratecv\\cvpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\cvpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|solutionrelative:xamgeneratecv\\xamgeneratecv\\cvpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|solutionrelative:xamgeneratecv\\xamgeneratecv\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|solutionrelative:xamgeneratecv\\xamgeneratecv\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|c:\\users\\fernando ponce\\documents\\tareas-dbep\\tareas\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\xamgeneratecv\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{060C0A48-774A-4F00-84E1-6AA8937507B4}|XamGenerateCV\\XamGenerateCV\\XamGenerateCV.csproj|solutionrelative:xamgeneratecv\\xamgeneratecv\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2947F254-4A6B-4730-8A1F-F36CE907D3C2}|XamGenerateCV\\XamGenerateCV.Android\\XamGenerateCV.Android.csproj|C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\xamgeneratecv\\xamgeneratecv.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2947F254-4A6B-4730-8A1F-F36CE907D3C2}|XamGenerateCV\\XamGenerateCV.Android\\XamGenerateCV.Android.csproj|solutionrelative:xamgeneratecv\\xamgeneratecv.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "XamGenerateCV\\XamGenerateCV\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\AssemblyInfo.cs",
+              "RelativeToolTip": "XamGenerateCV\\XamGenerateCV\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T02:04:44.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "XamGenerateCV\\XamGenerateCV\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\MainPage.xaml.cs",
+              "RelativeToolTip": "XamGenerateCV\\XamGenerateCV\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:29:08.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\App.xaml.cs",
+              "RelativeDocumentMoniker": "XamGenerateCV\\XamGenerateCV\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\App.xaml.cs",
+              "RelativeToolTip": "XamGenerateCV\\XamGenerateCV\\App.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:31:20.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV.Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "XamGenerateCV\\XamGenerateCV.Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV.Android\\MainActivity.cs",
+              "RelativeToolTip": "XamGenerateCV\\XamGenerateCV.Android\\MainActivity.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:34:10.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\MainPage.xaml",
+              "RelativeDocumentMoniker": "XamGenerateCV\\XamGenerateCV\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\MainPage.xaml",
+              "RelativeToolTip": "XamGenerateCV\\XamGenerateCV\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-18T01:17:56.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CvPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\CvPage.xaml",
+              "RelativeDocumentMoniker": "XamGenerateCV\\XamGenerateCV\\CvPage.xaml",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\CvPage.xaml",
+              "RelativeToolTip": "XamGenerateCV\\XamGenerateCV\\CvPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-18T01:29:31.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CVPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\CVPage.xaml.cs",
+              "RelativeDocumentMoniker": "XamGenerateCV\\XamGenerateCV\\CVPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\CVPage.xaml.cs",
+              "RelativeToolTip": "XamGenerateCV\\XamGenerateCV\\CVPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:29:40.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\App.xaml",
+              "RelativeDocumentMoniker": "XamGenerateCV\\XamGenerateCV\\App.xaml",
+              "ToolTip": "C:\\Users\\Fernando Ponce\\Documents\\TAREAS-DBEP\\TAREAS\\XAMGENERATECV\\XamGenerateCV\\XamGenerateCV\\XamGenerateCV\\App.xaml",
+              "RelativeToolTip": "XamGenerateCV\\XamGenerateCV\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-18T01:31:15.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamGenerateCV.App">
+    <Application.Resources>
+        <Color x:Key="DarkBlue">#0D1B2A</Color>
+        <Color x:Key="LightBlue">#1E3A5F</Color>
+        <Color x:Key="GrayishBlue">#A3B9D2</Color>
+        <Color x:Key="LightGray">#D3D3D3</Color>
+        <Color x:Key="SeparatorLine">#4C6A92</Color>
+    </Application.Resources>
+</Application>
